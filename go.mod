@@ -4,10 +4,10 @@ module github.com/hashicorp/nomad-skeleton-driver-plugin
 go 1.18
 
 require (
-	github.com/hashicorp/consul-template v0.29.1
-	github.com/hashicorp/go-hclog v1.2.1
+	github.com/hashicorp/consul-template v0.29.2-0.20220803104536-583050a85eea
+	github.com/hashicorp/go-hclog v1.2.2
 	github.com/hashicorp/go-plugin v1.4.4
-	github.com/hashicorp/nomad v1.3.1
+	github.com/hashicorp/nomad v1.3.5
 )
 
 require (
@@ -43,6 +43,7 @@ require (
 	github.com/hashicorp/go-secure-stdlib/mlock v0.1.2 // indirect
 	github.com/hashicorp/go-secure-stdlib/parseutil v0.1.6 // indirect
 	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2 // indirect
+	github.com/hashicorp/go-set v0.1.2 // indirect
 	github.com/hashicorp/go-sockaddr v1.0.2 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
@@ -89,6 +90,7 @@ require (
 	github.com/zclconf/go-cty v1.10.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
+	golang.org/x/exp v0.0.0-20220609121020-a51bd0440498 // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/net v0.0.0-20220708220712-1185a9018129 // indirect
 	golang.org/x/sys v0.0.0-20220712014510-0a85c31ab51e // indirect

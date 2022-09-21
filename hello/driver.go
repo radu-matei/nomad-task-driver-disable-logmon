@@ -638,3 +638,13 @@ func (d *HelloDriverPlugin) ExecTask(taskID string, cmd []string, timeout time.D
 	// TODO: implement driver specific logic to execute commands in a task.
 	return nil, errors.New("This driver does not support exec")
 }
+
+// InternalCapabilities attempts to disable logging and metrics collection for jobs handled
+// by this task driver.
+func (d *HelloDriverPlugin) InternalCapabilities() drivers.InternalCapabilities {
+	fmt.Println("Calling internal capabilities")
+	return drivers.InternalCapabilities{
+		DisableLogCollection:     true,
+		DisableMetricsCollection: true,
+	}
+}
